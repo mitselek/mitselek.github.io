@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+#conjunctionSourceLink, #conjunctionTargetLink, #conjunctionLink {
+  fill: green;
+}
+
+.link.conjunctionSourceLink, .link.conjunctionTargetLink, .link.conjunctionLink {
+  stroke: green;
+}
+
+.link.conjunctionLink {
+  stroke-dasharray: 0,2 1;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<pre id="sourcetext" style="display:none;">
+
+Ööülikoolist, lumemeestest ja “elusamusest”
+
+Konstantin Stanislavski on oma lavastusteoorias võtnud kasutusele mõisted “pealisülesanne” ja “ülipealisülesanne”. Kas mõtles ise välja või sai ilmutuse – täpselt ei tea, aga kõige kummalisem on see, et tema universaalset süsteemi saab kasutada mistahes valdkonnas, kirjutad sa raamatut, lood muusikat, lavastad või elad.
+
+Mis on see meie ülim siht ja milline on “läbiv tegevus” selle juurde. Kui hommikul üles tõuseme ja hakkame asju liigutama, kuidas me endale kogu seda tegutsemist põhjendame? Milline on meid ümbritsev maailm ja kuidas oleme sattunud vastavasse “näidendiossa”? Eks need on ju sellised kuueaastase tatika küsimused, et mis on elu mõte ja palju tähti taevas… Sest elu on ju väga lihtne – korterilaen peal ja erinevad projektid ripakil, aga uusi asju tuleb kogu aeg juurde. Mingisugune kummaline “orgunniratas” on pöörlema pandud ja kõik kihutavad nagu oravad. Aga ikkagi on inimeses mingi imelik siseloom, mis ajab teda otsima arusaamist ümbritseva ilmaelu kohta, et seeläbi taibata midagi ka iseendast.
+
+Need Ööülikooli saated, mida me helirežissöör Külli Tüliga öösiti nikerdame, on ka nagu omaette tervikmaailmad, mis moodustavad mingisuguse holograafilise võrgustiku, kus iga inimene-saade-ideesõlmeke täiendab teist lüli ning kokkuvõttes tekib üks tugev ja terviklik struktuur, milles on muidugi ka teatud nihkeid, hälbeid ja häbenemist. Alati ei lähe ju kõik nii nagu parimas tahtmises soovid, aga lähtepunkt on ikka see, et tuleb õppejõud ja võtab kaasa oma lemmikteema – selle lõigukese oma suurest teadmiste hulgast, millest kõneledes tema silm eriti särama lööb. Tunnikese jooksul saame aimu ka inimesest: kes ta on, kuidas mõtleb – mis on tema pealisülesanded, ülipealisülesanne…
+
+Lotman, Lauristin ja Pulga Jaan – mis neid seob? Väga vähe ja väga palju. See on Ööülikooli suur ime, et oleme ühe katuse alla tõmmanud nii erinevaid mõtlejaid. Kõik on saanud jääda iseendaks, igaüks on kirgastanud oma looga. Erinevad kõnelejad ja erinevad maailmakirjeldused. Humanitaarteadused, kui neid üldse saab teadusteks nimetada, on üks väga vedel distsipliin – siin ei ole nõnda, et kellegi ilmapilt ja jutt on päris õige või vale. Või mis rääkida humanitaariast – ka reaalteadustes on järjest segasemad lood. Kui meil Von Krahli Akadeemiaga oli ühine Kosmoloogia sari, käis kõnelemas noor ja andekas füüsik Margus Saal. Tema on Suure Paugu teooriast juba kaarega üle astunud ja tegeleb n-ö braanimaailmadega, mis on üks väga keeruline asi, kus õiget aega ja ruumi enam nagu polekski ja meie armsa universumi asemel on mitmemõõtmelisusest pulbitsev multiversum. Suur pütsak lugematuid maailmamulle kihiseb kui vaht Jumala õlletoobris. Sellise ilmaelu kirjeldamiseks on valemeid nõnda palju, et tahvel jääb lühikeseks ja kriit saab otsa. Mis on uute teooriate põhimõtteline erinevus võrreldes Suure Paugu või nende vanade maailmamudelitega, kus lapik maaketas on viie vaala või kolme elevandi turjal? Väga suurt erinevust vist polegi, tunnistas täheteadlane, sest mõlemad tegelevad kirjeldamatu kirjeldamisega. Nõnda on ka teadus üks paljudest võimalikest mütoloogiatest. Läbi ajaloo on inimesed püüdnud kirjeldada n-ö ülireaalset maailma. Parimal juhul on nad suutnud luua kujundeid nende asjade baasil, mis on meile tuttavad sellest maailmast.
+
+Uku Masingu järgi ei ole see meie tervemõistuslik reaalsus muud kui erinevate abstraktsioonipindade summa. Nendeks abstraktsioonipindadeks on mitmesugused kultuurid, teadused, filosoofiad, maailmavaated, mis kõik omal moel püüavad Tõelust peegeldada. Elame maailmas, kus tõelised teadmised on otsekui kokkupakitud kujul peidus kõikvõimalikes müütides ja lugulauludes. Suur mudeldamine kõik, aga mis sa hädaga teed. Kuidas asjad tegelikult on, saame teada alles siis, kui kõrvad pea alla paneme. Või kas ka siis. Aga üht-teist poetatakse meile juba eluajal.
+
+Uku Masing on kirjeldanud üht olulist murrangut oma maailmataju muutumisel:
+See oli 1932. aasta jõulu aegu, ülikooli vaheajal. Vaatasin, kuidas lumi sadas vastu pärnatüve. Poolsula lumi. Ja jäi sambliku külge kinni. Olin kuidagi teadvuse ja teadvusetuse vahel, mingis videvikus. Sisedialoog vist katkes, tuli asemele dialoog välisega. Inimene peab ju kogu eluaeg endaga dialoogi, kinnitab endale, et maailm on see ja see, et see on ilus või nüüd ma lähen ja nii edasi. Või see on pärn ja siin on oksad. Inimene teisiti elada ei saa. Aga siis kadus see ära. See dialoog iseendaga, üks inimese suuremaid nuhtlusi, see alaline iseendaga rääkimine. Ja siis ma nägin seda asja. Mitte enam sellena, et... Taipasin siis, et ma enne üldse pole Näinud lund, lumesadu, puutüve ega midagi muud maailmas, ning sellest hetkest pääle võin kõike näha tõeliselt ja ütelda sõnadega, mis pole saadud teiste käest ega kuulu näidendiossa. (Uku Masing, Ingvar Luhaäär, Sulalumi pärnatüvel — Kuldne kroon Eesti lipul, Tallinn, Olion 1992, lk.10.)
+
+Selliseid lumemehi olen minagi otsinud, üks neist on olnud ka Masingu õemees Evald Saag – Ööülikooli värviline kardinal, kellel sarnaselt Masinguga fotograafiline mälu ja tohutu lugemus. Kui kellegagi võrrelda, siis midagi Ema Theresa ja Andres Vanapa vahepealset. Alles hiljuti, 92-aastasena, läks teisele poole üle. “Mis see surm siis on – see on nagu ühe pilvelõhkuja aknast teise astumine”, rääkis ta muhedalt. Elav müstik, kes kunagi ei kiidelnud sellega, “kus ta millise kala kätte on saanud”. Ei olnud mingi ebamaine hõljuk, vaid väga praktiline tegelane. Elas tagasihoidlikult oma Lilleküla korteris, kõigile käeulatuses, ainult paari trollipeatuse kaugusel kesklinnast. Aegamööda jäi kehalt üha hapramaks, aga vaim särises viimse hetkeni väga heleda leegiga. Eestiaegne humanitaarteadlane ja seitsmekümne-keele-mees. Jõudis õppida nii õigusteadust, teoloogiat kui käia Laidoneri salajases luurekoolis. Suurepärane kooslus aju- ja südametarkusest. Alati hästi lihtne ja hooliv: “Vaata, kapis on leiba ja mett, ja tee aga ise kohvi ja koort tuleb ka panna, siis püsib magu korras, sest, poisid, mis kasu on meil peast, kui meil magu enam pole? ” Ole sa üliõpilane, paavst või šamaan, tema ei teinud mingit seisusevahet, oli alati sõbralik, sinatas kõiki ja lasi ennast sinatada, elas oma usus nõnda, nagu oleksid kõik inimesed siin maailmas vennad ja õed.
+
+Saag oli mees, kelle ühel käel võis istuda muusik Jaak Johanson ja teisel keemik Marek Strandberg. Sügava empaatiaga keskendus igale inimesele eraldi – meeletu haare – kunst, muusika, kirjandus, kultuuri- ja usundilugu muistsest Sumerist meie aega välja. Üliõpilasena uuris Sorbonne`is sumeri savitahvleid, hiljem õppis Tartus veel ka troopika arstiteadust ja käis mitmel korral Lõuna-Ameerika indiaanlaste juures. Tundis isiklikult praktiliselt kõiki eestiaegseid kultuuriinimesi, meieaegseid suurkujusid õppis tundma juba nende lapsepõlvest. Meenub lugu, kuidas nad kuueaastase Jaan Kaplinskiga õues jalutasid ja see kogu aeg taevasse vahtis. “Mis sa seal taevas näed ?“, küsib Evald viimaks. “Ma vaatan valget jutti!”, on pisike Jaan ähmi täis. Evald jutustab ja kihistab naerda nagu Ivan Orav: “Jah, poiss vaatas lennukit.”
+
+Suur elukogemus ja talle ainuomane kujundlik keel tegi temast ideaalse õppejõu. Kui mõni kuulaja liiga hardunult kõrvu liigutas, hakkas Evald pada ajama, otsekui proovides, ega inimese kriitkameel pole uinunud. Suutis ühendada elu kui terviku: parim näide sellest, kuidas inimene võib olla püha igal eluhetkel, teeb ta siis pliidi alla tuld või salvib oma haige naise jalgu. Tänu Saagile olen üha rohkem hakanud taipama, et on olemas mingid põhiväärtused, mille puudumist ei korva mistahes tarkus. Sügavus, mida kannab endas mõni Setu memm, võib kõvasti üle olla nii mõnegi õpetatud professori maailmamõistmisest. Evald mahutas endasse nii südame- kui raamatutarkuse. Raadio tema laual kõneles 21. sajandi keeles, ta oli alati kõigega kursis, aga elas paralleelselt oma ajatus maailmas.
+
+Minu arusaamist mööda on kultuur ideede kogum, mis ühel konkreetsel ajahetkel on inimühiskonnas väljendust leidnud. Just nimelt ühel ajahetkel, sest pidevalt midagi unustatakse, midagi kaob silmapiirilt, samal ajal kui mõni tõde, mida inimkond on kunagi teadnud, ujub jälle pinnale — (taas)avastatakse. Piltlikult öeldes: maailm on valmis või pidevalt taasloomisel ning ikka ja jälle tõuseb pinnale üks või teine idee, mida väljendab/vahendab üks või teine inimene. Käepärane näide: meie ajastu suursaavutus – digitaalmaailm koos kõige sellega seonduvaga tundub olema midagi põhimõtteliselt uut, kui aga asi pulkadeks lahti võtta, jääb järele ainult pihutäis nullisid ja ühtesid, mis on väga arhetüüpne informatsiooni edastamise ja säilitamise viis, tuhandeid aastaid vana. Mistahes kultuuriheeros või trikster teadis juba ammu, kuidas sõnu ja pilte kahendkoodis edastada, ainult arvutit ei viitsinud keegi valmis teha. Areneda võib tehnika, vorm, väljenduslaad, aga asjade olemus jääb alati samaks. Inimese rõõmud on samad. Kannatus sama. Kunstiajaloo õppejõud Olga Kaljundi rõhutas ikka, et kultuur ei arene: kultuuris on minevik, olevik ja tulevik täiesti läbi põimunud. Mark Soosaar on pakkunud Kihnu memmede kootud vaipa New Yorgi moodsa kunsti muuseumi. Sumeri päikesekettad Ruhnu puukirikus... Seda, et aega ei ole olemas, kuuleme ka uusšamanistlikus klubimuusikas, mis samuti kasutab inimpsüühikal ammu äraproovitud rütme, ainult et kui vanasti olid erinevad ajukatalüsaatorid (rütmid, ained) preestri või šamaani eesõigus, mitte kunagi lihtsalt naudingu allikaks, siis praegu kasutatakse vanu võtteid ebamääraseks lõõgastumiseks või endast ärasaamiseks. Ja päike on ikka sama ning kelmide-pühakute osakaal paistab ka üsna ühesugune ajast aega.
+
+Oma olemuselt ei ole ka Ööülikool midagi uut. Inimesed on ikka lõkke äärde kokku tulnud ja üksteisele lugusid jutustanud. Juhtusin kunagi ajakirjast Teater Muusika Kino lugema Anneli Remme kirjutist “Normetite Ööülikool”, milles räägiti uue eestiaja alul muusikaakadeemia professori Leo ja tema abikaasa Sirje Normeti juures korraldatud kodustest koosviibimistest, kus mõne erudeeritud külalise osavõtul joodi teed, söödi keeksi ning räägiti... Nemad nimetasid neid kokkusaamisi Ööülikooliks. Saatesari “Raadio Ööülikool” sai alguse ideest luua kuuldemänguline fiktsioon ühe ülikooli juures tegutsevast vaimsest vennaskonnast, kes kord nädalas kutsub endale külla ühe välislektori — õppejõu/mõtleja, keda tavaliselt ei ole võimalik nende koolis kuulata. Manifesti sai kirja pandud ka nõue, et Ööülikoolis kõnelevad inimesed peaksid omama küll akadeemilist kaalu, aga ka julgust sissesörgitud radadelt kõrvale astuda. Nagu ütleb professor Saag “Ei ole aednik, ei ole põllumees, kui käed ei ole mullased. See on potipõllumees. Potiteadlane potitegijana võib küll midagi olla, aga kes teiste potte ainult kirjeldab, see ei ole teadlane”. Akadeemiline auditoorium oma surisevate päevavalguslampidega sööb värve ja varjundeid. Valgus tuleb maha keerata, pilk lõdvaks lasta ja vaadelda videvikku. Sellises poolhämaras ajas, päeva ja öö pikal piiril, mida võib kohata ainult meie laiuskraadil, on peidus suur võimlus väärtuslike ätättšide allalaadimiseks Universumi infoserverist.
+
+Uku Masing uskus, et sarnaselt histolüüsile, mille käigus ussitaolisest tõugust areneb liblikas, on inimeste puhul võimalik samalaadne psühholüüs — inimese meelevõimete avardumine. Küllap raskeim, kui mitte võimatu, on ületada bioloogilistest põhjustest tingitud tajupiiratust. Meie füsioloogia oma viie meelega seab üsnagi kindlad raamid. Palju hõlpsam on meele avardumine mõtlemise baasil. Masing unistas, et kui selle üheainsa objektiivi asemel, mis meil on, saaksime kasutada korraga nii mikroskoopi kui teleskoopi! Saadud pilt, vaadelduna eri tasandeilt, oleks palju tõetruum. Siit on lihtne tuletada: mida rohkem tunneme erinevaid vaateid elule, seda objektiivsema pildi maailmast saame. Tõeluseni ei jõua me nagunii, sest siin seavad meile piiri sõnad ja mõisted, mis on meie mõtlemissüsteemide ehituskivideks. Sõna on sümbol, tükike tegelikkust lahjendatud ja üldistatud kujul, mis ei suuda kanda asjade tõelist olemust. Olgu kuitahes täiuslik digitaaltehnika, kui palju bitte ja baite me mingi infohulga edastamiseks ka ei kasutaks, ikka ei suuda me reaaliat üks-ühele esile manada. Pilt jääb ikka veidi teraliseks, heli ei ole kunagi päris õige. Seni kuni oleme alles teel puhta kaemuseni ning suudame elada peamiselt "sõnade ja mõistete" maailmas, saame rõõmu tunda neist lugudest-sümboleist, mis kõige täiuslikumalt annavad edasi tegelikkust või siis vähemalt viitavad mingil moel ülireaalsele ilmale. Mõni harjumuspäratu lahendus tavaelus või töisel pinnal, kuuldud sõna, heli või pilt võib rebestada meie kammitsetud teadvuse ja korraga näeme maailma palju avaramalt, selgemalt ja terviklikumalt. Aga ennekõike tuleb peatada “orgunniratas”, rohkem laiselda ja mitte midagi teha. Tasakesi oma sisemist kompassi häälestades sõnastub ka ülipealisülesanne. Lihtsalt vaadata neid lehti või hundinuiasid, mis tuule käes liiguvad. Korraga saad aru, et ka teisiti on võimalik. Ja saab paremini. Elusamalt. Ja olla on hea.
+
+Ilmunud Opiraamatus,
+koostajad: Gerda Kordemets ja Margot Visnap
+
+</pre>
+
+<script>
+
+function zip(arrays) {
+    return arrays[0].map(function(_,i){
+        return arrays.map(function(array){return array[i]})
+    });
+}
+
+
+var min_word_len = 2;
+var conjunctions = ["AGA", "AINULT", "ALATI", "ALLA", "AMMU", "ASEMEL", "EEST", "EGA", "EI", "EKS", "ENAM", "ENDALE", "ENNAST", "ERINEVAD", "ET", "IGAL", "IKKA", "IKKAGI", "ISE", "ISEGI", "JA", "JAH", "JAOKS", "JU", "JUBA", "JUST", "JUURDE", "JUURES", "JÄLLE", "JÄÄB", "JÄI", "KA", "KAKS", "KAS", "KES", "KOGU", "KOKKU", "KUI", "KUID", "KUIDAS", "KUJUL", "KUNAGI", "KUS", "KÕIGE", "KÕIK", "KÕIKI", "KÄIS", "KÜLL", "LAHTI", "LÄBI", "MA", "ME", "MEIE", "MEIL", "MEILE", "MIDA", "MIDAGI", "MILLE", "MILLES", "MILLEST", "MINGI", "MINGIT", "MINU", "MIS", "MISTAHES", "MITTE", "MOEL", "MUIDUGI", "MUL", "MULLE", "MUUD", "MÕNI", "NAD", "NAGU", "NEED", "NEID", "NEIST", "NENDE", "NII", "NIIMOODI", "NING", "NÄITEKS", "NÕNDA", "OLE", "OLEKS", "OLEMAS", "OLEME", "OLEN", "OLGU", "OLI", "OLLA", "OLNUD", "OMA", "ON", "ONGI", "OSA", "PALJU", "PEAD", "PEAKS", "POLE", "ROHKEM", "SA", "SAA", "SAAB", "SAAME", "SAI", "SAMA", "SAMAS", "SEAL", "SEDA", "SEE", "SELLE", "SELLEGA", "SELLES", "SELLEST", "SELLINE", "SELLIST", "SELLISTE", "SEST", "SIIN", "SIIS", "SIISKI", "SINU", "SUL", "SUUR", "TA", "TALLE", "TEGELIKULT", "TEHA", "TEINE", "TEISTE", "TEMA", "TULEB", "TÄIESTI", "TÕESTI", "VAID", "VAJA", "VALMIS", "VANA", "VEEL", "VIST", "VÄGA", "VÕI", "VÕIB", "VÕIKS", "VÕIMALIK", "ÄRA", "ÜHA", "ÜHE", "ÜHEL", "ÜKS", "ÜLE", "ÜLDSE"
+];
+var sentence_re = /[A-Za-zõüäöÕÜÄÖ0..9][^.!?\n]+([^\w\s]|(?=\n)|$)/g;
+var word_re = /[ .,:;!\?})„“”]+/;
+var bigram = "";
+var bigrams = [];
+var source_w = "";
+var target_w = "";
+
+var sourcetext = document.getElementById("sourcetext").innerHTML
+var sentences = sourcetext.match( sentence_re );
+var linkDistance = 50;
+var charge = -200;
+// graph size sqrt(len(text))*linkDistance
+var graph_size = Math.sqrt(sourcetext.length) * linkDistance;
+
+var id_counter = 0;
+for(var i in sentences)
+{
+  var sentence = sentences[i];
+  var words = sentence.split(word_re);
+  var source_w = "";
+  var target_w = "";
+  var source_id = "";
+  var target_id = "";
+  var link_type = "plainLink";
+  var source_type = "";
+  var target_type = "";
+
+  while (target_w.length < min_word_len && words.length > 0) {
+    target_w = words.pop().toUpperCase();
+    target_id = target_w;
+  }
+  if (conjunctions.indexOf(target_w) > -1) {
+    target_id += id_counter++;
+    target_type = "conjunction";
+  }
+  while (words.length > 0) {
+    while (source_w.length < min_word_len && words.length > 0) {
+      source_w = words.pop().toUpperCase();
+      source_id = source_w;
+    }
+    if (conjunctions.indexOf(source_w) > -1) {
+      source_id += id_counter++;
+      source_type = "conjunction";
+    }
+    link_type = "plainLink";
+    if (source_type == "conjunction") {
+      if (target_type == "conjunction") {
+        link_type = "conjunctionLink";
+      } else {
+        link_type = "conjunctionSourceLink";
+      }
+    } else {
+      if (target_type == "conjunction") {
+        link_type = "conjunctionTargetLink";
+      }
+    }
+    bigram = {source_id: source_id, target_id: target_id, source: source_w, target: target_w, type: link_type};
+    bigrams.push(bigram);
+    target_w = source_w;
+    target_id = source_id;
+    source_w = "";
+    source_type = "";
+  }
+}
+
+links = bigrams;
+
+var nodes = {};
+
+// Compute the distinct nodes from the links.
+links.forEach(function(link) {
+  link.source = nodes[link.source_id] || (nodes[link.source_id] = {name: link.source});
+  link.target = nodes[link.target_id] || (nodes[link.target_id] = {name: link.target});
+});
+
+var width = graph_size,
+    height = graph_size;
+
+var force = d3.layout.force()
+    .nodes(d3.values(nodes))
+    .links(links)
+    .size([width, height])
+    .linkDistance(linkDistance)
+    .charge(charge)
+    .on("tick", tick)
+    .start();
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+// Per-type markers, as they don't inherit styles.
+svg.append("defs").selectAll("marker")
+    .data(["conjunctionSourceLink", "conjunctionTargetLink", "conjunctionLink", "plainLink"])
+  .enter().append("marker")
+    .attr("id", function(d) { return d; })
+    .attr("viewBox", "0 -5 10 10")
+    .attr("refX", 15)
+    .attr("refY", -1.5)
+    .attr("markerWidth", 6)
+    .attr("markerHeight", 6)
+    .attr("orient", "auto")
+  .append("path")
+    .attr("d", "M0,-5L10,0L0,5");
+
+var path = svg.append("g").selectAll("path")
+    .data(force.links())
+  .enter().append("path")
+    .attr("class", function(d) { return "link " + d.type; })
+    .attr("marker-end", function(d) { return "url(#" + d.type + ")"; });
+
+var circle = svg.append("g").selectAll("circle")
+    .data(force.nodes())
+  .enter().append("circle")
+    .attr("r", 8)
+    .call(force.drag);
+
+var text = svg.append("g").selectAll("text")
+    .data(force.nodes())
+  .enter().append("text")
+    .attr("x", 8)
+    .attr("y", ".31em")
+    .text(function(d) { return d.name; });
+
+// Use elliptical arc path segments to doubly-encode directionality.
+function tick() {
+  path.attr("d", linkArc);
+  circle.attr("transform", transform);
+  text.attr("transform", transform);
+}
+
+function linkArc(d) {
+  var dx = d.target.x - d.source.x,
+      dy = d.target.y - d.source.y,
+      dr = Math.sqrt(dx * dx + dy * dy);
+  return "M" + d.source.x + "," + d.source.y + "A" + dr + "," + dr + " 0 0,1 " + d.target.x + "," + d.target.y;
+}
+
+function transform(d) {
+  return "translate(" + d.x + "," + d.y + ")";
+}
+
+</script>
